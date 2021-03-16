@@ -1,3 +1,6 @@
+# for run this --> streamlit run main.py
+
+
 import yfinance as yf
 import streamlit as st
 import pandas as pd
@@ -24,5 +27,3 @@ st.write("""
 ## Volume Price
 """)
 st.line_chart(tickerDf.Volume)
-
-# for run this --> streamlit run main.py
